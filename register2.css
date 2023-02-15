@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+    box-sizing: border-box;
+}
+#box{
+    padding: 50px 50px 50px 50px;
+}
+.container{
+    background-color:burlywood;
+    width: 400px;
+    height: 650px;
+    padding: 20px ;
+    border-radius: 10px;
+    display: flex;
+}
+.header{
+    font-weight: 550;
+    position: absolute;
+    left:110px ;
+    top: 10em;
+    
+}
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    background-color:chocolate;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+ .lab{
+    
+    position:relative;
+    background-color: burlywood;
+    width: 390px;
+    left: 70em ;
+    top: -43em;
+    height: 100%;
+ }
+ input[type=submit]:hover {
+    background-color:brown;
+  }
+ .qr{
+    position: absolute;
+    left: 500px;
+    top: 150px;
+    border: 10px solid #ddd;
+    padding: 15px 15px 15px 15px;
+    width: 600px;
+ }
+ .group{
+    width: 34em;
+    height:30em;
+ }

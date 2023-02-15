@@ -1,0 +1,44 @@
+*{
+  padding :0px;
+  margin: 0px;
+  box-sizing: border-box;
+  list-style: none;
+  background-color:  hsl(218, 28%, 13%);
+}
+.main{
+  width: 590px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  text-align: center;
+  
+  
+}
+.menu {
+  width: 30%;
+  background-color:lightblue;
+}
+.menu a{
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+  letter-spacing: 2px;
+  display:flex;
+  flex-direction:row-reverse;
+  padding: 20px;
+  border-top: 5px solid whitesmoke;
+  border-bottom: 5px solid whitesmoke;
+  background-color: lightblue;
+}
+.menu a:hover{
+  background-color: burlywood;
+  transition: 0.2s;
+  letter-spacing: 4px;
+  
+}
+
+  
+
+
+

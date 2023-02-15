@@ -1,0 +1,79 @@
+body{
+    background-image: url("blurbg1.jpg");
+    background-size: 50% 50%;
+    background-position: center;
+    padding : 20px 20px;
+}
+.a{
+    background-image: url("../bg1.jpg");
+}
+.b{
+    background-color: rgb(122, 138, 123);
+    color: rgb(222, 16, 30);
+    padding-top: 50px;
+    padding-bottom: 50px; 
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h3{
+    color: aqua;
+}
+.textarea{
+    font-size: x-large;
+    border-radius: 10px;
+    outline: burlywood;
+    width : 800px;
+    height : 200px;
+    
+}
+.c{
+    font-style: oblique;
+    font-size: x-large;
+    color: brown;
+}
+*{
+    box-sizing: border-box;
+}
+.image1{
+        float:left;
+        margin-left: 30px;
+        margin-right: 40px;
+        padding: 30px;
+}
+.image2{
+    float:left;
+    margin-left: 30px;
+    margin-right: 40px;
+    padding: 30px;
+}
+.image3{
+    float:left;
+    margin-left: 30px;
+    margin-right: 40px;
+    padding: 30px;
+}
+.image4{
+    float:left;
+    margin-left: 30px;
+    margin-right: 40px;
+    padding: 30px;
+}
+.image5{
+    float:left;
+    margin-left: 30px;
+    margin-right: 40px;
+    padding: 30px;
+}
+.image6{
+    float:left;
+    margin-left: 30px;
+    margin-right: 40px;
+    padding: 30px;
+}
+h2{
+    color: aqua;
+    font-size: medium;
+}
+.video{
+    size: 10px;
+}

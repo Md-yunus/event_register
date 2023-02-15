@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Payment</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="register.css">
+    
+<body>
+    <div id="box">
+    <div class="container">
+        <h1 class="header"><i class="fa-sharp fa-solid fa-business-time"></i>IDEATHON</h1>
+      </div>
+    </div>
+   
+
+          <div class="lab">
+            <form>
+                <label for="fname">Team Lead:</label>
+                <input type="text" name="name" placeholder='Name'><br><br>
+                <label for="lname">Student 1 Rollno:</label>
+                <input type="text" name="rolno" placeholder='RollNo'><br><br>
+                <label for="fname">Department:</label>
+                <input type="text" name="department" placeholder='Department'><br><br>
+                <label for="fname">Team Member 2:</label>
+                <input type="text" name="aname" placeholder='Name2'><br><br>
+                <label for="lname">Student 2 Rollno:</label>
+                <input type="text" name="arolno" placeholder='RollNo2'><br><br>
+                <label for="fname">Department:</label>
+                <input type="text" name="adepartment" placeholder='department2'><br><br>
+                <label for="fname">Transaction ID:</label>
+                <input type="text" name="atransaction" placeholder='ID'><br><br>
+                <input type="submit" id="sub">
+            </form>
+        </div>
+            <script>
+                let form = document.querySelector("form");
+                form.addEventListener('submit', (e) => {
+                    e.preventDefault();
+                    document.querySelector("#sub").value = "Submited";
+                    let data = new FormData(form);
+                    fetch('https://script.google.com/macros/s/AKfycbzU5Qgg_Vl0rcmwpS-40dQMbgRo1hTkJMSh3QvCmQVBdtljMyNqBJrDoQj0LjVgljUV/exec', {
+                            method: "POST",
+                            body: data
+                        })
+                        .then(res => res.text())
+                        .then(data => {
+                            document.querySelector("#msg").innerHTML = data;
+                            document.querySelector("#sub").value = "Submit"
+                        });
+                })
+            </script>
+            
+          </div>
+          <div class="qr">
+            <img alt=""class="group" src="qrcode1.jpeg">
+            </div>
+</body>
+</head>
+</html>

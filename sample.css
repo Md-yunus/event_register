@@ -1,0 +1,779 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+   
+    
+}
+
+
+
+body{
+    background:url(Untitled\ design.jpg);
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+        
+}
+nav{
+    background-color:brown;
+    height: 80px;
+    width: 100%;
+    
+
+    
+   
+
+
+}
+label.logo{
+    background:white;
+    font-size: 30px;
+    font-style: oblique;
+    line-height: 75px;
+    padding-left: 50px;
+
+
+}
+nav ul
+{
+    display: inline-flex;
+    float: right;
+    list-style: none;
+}
+
+nav ul li a{
+    display: flex;
+    padding: 20px;
+    margin-right: 10px;
+    color: beige;
+    text-decoration: none;
+    
+    font-size: 15px;
+    letter-spacing: 3px;
+   
+}
+nav ul li a:hover{
+    background-color:darkgrey;
+    transition: 0.5s;
+    
+}
+/*.search
+{
+    width: 95%;
+    height: 30vh;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     
+      
+}
+form
+{
+    width: 110px;
+    height: 45px;
+    display: flex;
+
+}
+form input
+{
+    padding: 15px;
+    height: 15px;
+    
+    border: none;
+    outline: none;
+}
+form button
+{
+    background: tomato;
+    padding: 15px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    align-items: center;
+    justify-content: center;
+
+}*/
+
+header{
+        
+        padding-left: 35em;
+        padding-top: 1em;
+        padding-bottom: 1em;
+        
+        font-size: larger;
+        background: url(headerimg1.jpg);
+      
+}
+body
+{
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.content{
+    
+    
+    
+    width: 100%;
+    height: 35em;
+    background: #fff;
+
+}
+.content img{
+    height: 100%;
+    width: 100%;
+    opacity: 100%;
+}
+.content h1{
+    
+    margin-top: -65%;
+    text-align: center;
+    background: #000000;
+    color: #fff;
+    font-weight: 600;
+
+}
+.eventhead
+{
+    margin-top: 3em;
+    padding-left: 45%;
+
+}
+.eventhead h1{
+    color: brown;
+    font-size: 50px;
+    text-decoration: underline;
+    font-weight:900;
+}
+.front{
+    background: url(presentation1.jpg);
+    width: 50px;
+    height: 50%;
+    background-size: cover;
+    background-position: center;
+}
+.front h1{
+    background: #000;
+    color: #fff;
+    text-align: center;
+    padding-top: 30%;
+    text-decoration:underline;
+}
+.middle{
+    position: absolute;
+    margin-top: 20em;
+    margin-left: 20em;
+    
+    transform: translate(-50%,-50%);
+}
+.card
+{
+    cursor: pointer;
+    width:340px;
+    height: 480px;
+
+}
+.front,.back{
+    width:100%;
+    height: 100%;
+    border-radius: 10%;
+    overflow:hidden;
+    backface-visibility: hidden;
+    position: absolute;
+    transition: transform .6s linear;
+}
+
+
+.front{
+   
+    transform: perspective(600px) rotateY(0deg);
+}
+.back{
+    background: #fff;
+    transform: perspective(600px) rotateY(180deg);
+}
+.card:hover > .front{
+    transform: perspective(600px) rotateY(-180deg);
+}
+.card:hover > .back{
+    transform: perspective(600px) rotateY(0deg);
+}
+.back
+{
+    background:url(backimg4.jpg);
+    
+}
+
+.back-content
+{
+    color: #fff;
+    font-style: oblique;
+    font-weight: bolder;
+   text-align: left;
+   margin-top: 3em;
+   padding-left:0.5em ;
+    
+}
+.pay{
+    
+        text-align: center;
+        margin-top: 25%;
+        font-size: 1.5em;
+        color: #fff;
+        background-color: aqua;
+        margin-left: 3em;
+        margin-right: 3em;
+        
+    
+}
+
+
+
+.front1{
+    background: url(techtalk1.jpg);
+    width: 100px;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.front1 h1{
+    background: #000;
+    color: #fff;
+    text-align: center;
+    padding-top: 30%;
+    text-decoration:underline;
+}
+.middle1{
+    position: absolute;
+    margin-top: 20em;
+    margin-left: 47.5em;
+    
+    transform: translate(-50%,-50%);
+}
+.card1
+{
+    cursor: pointer;
+    width:340px;
+    height: 480px;
+
+}
+.front1,.back1{
+    width:100%;
+    height: 100%;
+    border-radius: 10%;
+    overflow:hidden;
+    backface-visibility: hidden;
+    position: absolute;
+    transition: transform .6s linear;
+    
+}
+img{
+    width: 100%;
+    height: 100%;
+    opacity: 50%;
+}
+.front1{
+   
+    transform: perspective(600px) rotateY(0deg);
+}
+.back1{
+    background: #fff;
+    transform: perspective(600px) rotateY(180deg);
+}
+.card1:hover > .front1{
+    transform: perspective(600px) rotateY(-180deg);
+}
+.card1:hover > .back1{
+    transform: perspective(600px) rotateY(0deg);
+}
+
+.back1
+{
+    background:url(backimg4.jpg);
+    
+}
+
+.back-content1
+{
+    color: #fff;
+    font-style: oblique;
+    font-weight: bolder;
+   text-align: left;
+   margin-top: 3em;
+   padding-left:0.5em ;
+    
+}
+.pay1{
+    
+        text-align: center;
+        margin-top: 40%;
+        font-size: 1.5em;
+        color: #fff;
+        background-color: aqua;
+        margin-left: 3em;
+        margin-right: 3em;
+        
+    
+}
+
+
+.front2{
+    background: url(business.jpg);
+    width: 100px;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.front2 h1{
+    background:#000;
+    color: #fff;
+    text-align: center;
+    padding-top: 30%;
+    text-decoration:underline;
+}
+.middle2{
+    position: absolute;
+    margin-top: 20em;
+    margin-left: 75em;
+    
+    transform: translate(-50%,-50%);
+}
+.card2
+{
+    cursor: pointer;
+    width:340px;
+    height: 480px;
+
+}
+.front2,.back2{
+    width:100%;
+    height: 100%;
+    border-radius: 10%;
+    overflow:hidden;
+    backface-visibility: hidden;
+    position: absolute;
+    transition: transform .6s linear;
+}
+img{
+    width: 100%;
+    height: 100%;
+    opacity: 50%;
+}
+.front2{
+   
+    transform: perspective(600px) rotateY(0deg);
+}
+.back2{
+    background: #fff;
+    transform: perspective(600px) rotateY(180deg);
+}
+.card2:hover > .front2{
+    transform: perspective(600px) rotateY(-180deg);
+}
+.card2:hover > .back2{
+    transform: perspective(600px) rotateY(0deg);
+}
+.back2
+{
+    background:url(backimg4.jpg);
+}
+
+.back-content2
+{
+    color: #fff;
+    font-style: oblique;
+    font-weight: bolder;
+   text-align: left;
+   margin-top: 3em;
+   padding-left:0.5em ;
+    
+}
+.pay2{
+    
+        text-align: center;
+        margin-top: 40%;
+        font-size: 1.5em;
+        color: #fff;
+        background-color: aqua;
+        margin-left: 3em;
+        margin-right: 3em;
+        
+    
+}
+
+
+
+.front3{
+    background: url(electrical.jpg);
+    width: 100px;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.front3 h1{
+    background: #000;
+    color: #fff;
+    text-align: center;
+    padding-top: 30%;
+    text-decoration:underline;
+}
+.middle3{
+    position: absolute;
+    margin-top: 50em;
+    margin-left: 75em;
+    
+    transform: translate(-50%,-50%);
+}
+.card3
+{
+    cursor: pointer;
+    width:340px;
+    height: 480px;
+
+}
+.front3,.back3{
+    width:100%;
+    height: 100%;
+    border-radius: 10%;
+    overflow:hidden;
+    backface-visibility: hidden;
+    position: absolute;
+    transition: transform .6s linear;
+}
+img{
+    width: 100%;
+    height: 100%;
+    opacity: 50%;
+}
+.front3{
+   
+    transform: perspective(600px) rotateY(0deg);
+}
+.back3{
+    background: #fff;
+    transform: perspective(600px) rotateY(180deg);
+}
+.card3:hover > .front3{
+    transform: perspective(600px) rotateY(-180deg);
+}
+.card3:hover > .back3{
+    transform: perspective(600px) rotateY(0deg);
+}
+.back3
+{
+    background:url(backimg4.jpg);
+    
+}
+
+.back-content3
+{
+    color: #fff;
+    font-style: oblique;
+    font-weight: bolder;
+   text-align: left;
+   margin-top: 3em;
+   padding-left:0.5em ;
+    
+}
+.pay3{
+    
+        text-align: center;
+        margin-top: 40%;
+        font-size: 1.5em;
+        color: #fff;
+        background-color: aqua;
+        margin-left: 3em;
+        margin-right: 3em;
+        
+    
+}
+
+
+
+.front4{
+    background: url(quiz.jpg);
+    width: 100px;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.front4 h1{
+    background:#000;
+    color: #fff;
+    text-align: center;
+    padding-top: 30%;
+    text-decoration:underline;
+}
+.middle4{
+    position: absolute;
+    margin-top: 47.5em;
+    margin-left: 47.5em;
+    
+    transform: translate(-50%,-50%);
+}
+.card4
+{
+    cursor: pointer;
+    width:340px;
+    height: 480px;
+
+}
+.front4,.back4{
+    width:100%;
+    height: 100%;
+    border-radius: 10%;
+    overflow:hidden;
+    backface-visibility: hidden;
+    position: absolute;
+    transition: transform .6s linear;
+    
+}
+img{
+    width: 100%;
+    height: 100%;
+    opacity: 50%;
+}
+.front4{
+   
+    transform: perspective(600px) rotateY(0deg);
+}
+.back4{
+    background: #fff;
+    transform: perspective(600px) rotateY(180deg);
+}
+.card4:hover > .front4{
+    transform: perspective(600px) rotateY(-180deg);
+}
+.card4:hover > .back4{
+    transform: perspective(600px) rotateY(0deg);
+}
+.back4
+{
+    background:url(backimg4.jpg);
+    
+}
+
+.back-content4
+{
+    color: #fff;
+    font-style: oblique;
+    font-weight: bolder;
+   text-align: left;
+   margin-top: 3em;
+   padding-left:0.5em ;
+    
+}
+.pay4{
+    
+        text-align: center;
+        margin-top: 40%;
+        font-size: 1.5em;
+        color: #fff;
+        background-color: aqua;
+        margin-left: 3em;
+        margin-right: 3em;
+        
+    
+}
+
+
+
+.front5{
+    background: url(idea.jpg);
+    width: 100px;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.front5 h1{
+    background:#000;
+    color: #fff;
+    text-align: center;
+    padding-top: 30%;
+    text-decoration:underline;
+}
+.middle5{
+    position: absolute;
+    margin-top: 47.5em;
+    margin-left: 20em;
+    
+    transform: translate(-50%,-50%);
+}
+.card5
+{
+    cursor: pointer;
+    width:340px;
+    height: 480px;
+
+}
+.front5,.back5{
+    width:100%;
+    height: 100%;
+    border-radius: 10%;
+    overflow:hidden;
+    backface-visibility: hidden;
+    position: absolute;
+    transition: transform .6s linear;
+}
+img{
+    width: 100%;
+    height: 100%;
+    opacity: 50%;
+}
+.front5{
+   
+    transform: perspective(600px) rotateY(0deg);
+}
+.back5{
+    background: #fff;
+    transform: perspective(600px) rotateY(180deg);
+}
+.card5:hover > .front5{
+    transform: perspective(600px) rotateY(-180deg);
+}
+.card5:hover > .back5{
+    transform: perspective(600px) rotateY(0deg);
+}
+.back5
+{
+    background:url(backimg4.jpg);
+    
+}
+
+.back-content5
+{
+    color: #fff;
+    font-style: oblique;
+    font-weight: bolder;
+   text-align: left;
+   margin-top: 3em;
+   padding-left:0.5em ;
+    
+}
+.pay5{
+    
+        text-align: center;
+        margin-top: 40%;
+        font-size: 1.5em;
+        color: #fff;
+        background-color: aqua;
+        margin-left: 3em;
+        margin-right: 3em;
+        
+    
+}
+
+
+.about-us{
+    
+    
+        margin: auto;
+        margin-top: 70em;
+        width: 100%;
+        height: 35em;
+        background: #fff;
+}
+.contact{
+    
+    
+    
+    margin-top: 5em;
+    margin-bottom: 3em;
+    width: 100%;
+    height: 35em;
+    background: #000000;
+}
+
+.contact h1{
+    color: #fff;
+}
+.contact h3{
+    color: #fff;
+}
+.contact img{
+    width: 50%;
+    height: 100%;
+    float: right;
+}
+.contact a {
+    color: olive;
+    font-size:20px;
+    display: inline-flex;
+    
+}
+
+
+.social-media
+{
+    margin: 0px 0;
+}
+.social-media a{
+    display: inline-flex;
+    width: 70px;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+    color: olive;
+    font-size: 40px;
+    transition: 0.4s;
+    border-radius: 50%;
+    margin-left: 2em;
+}
+.social-media a:hover
+{
+    background: olive;
+    color: #fff;
+}
+.back-content a{
+    color: olive;
+}
+.back-content1 a{
+    color: olive;
+}
+.back-content2 a{
+    color: olive;
+}
+.back-content3 a{
+    color: olive;
+}
+.back-content4 a{
+    color: olive;
+}
+.back-content5 a{
+    color: olive;
+}
+.about-us {
+    background: url(logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    width: 50%;
+    height: 90%;
+    margin-left: -1em;
+}
+.about-us1 ul{
+    background: #fff;
+    width: 50%;
+    height: 44.3em;
+    margin-left: 46.5em;
+    margin-top: -47.9em;
+}
+.about-us1 p{
+    margin-top: 3em;
+    font-size: larger;
+    align-items: center;
+}
+
+
+
+
